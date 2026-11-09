@@ -195,6 +195,41 @@ def play_hangman():
     print("You have used all 6 incorrect attempts.")
     print("The correct word was:", secret_word)
 
+output
+================================
+      HANGMAN WORD GAME
+================================
+
+Guess the hidden word!
+You have 6 incorrect attempts.
+Enter one letter at a time.
+
+
+         +---+
+         |   |
+             |
+             |
+             |
+        =========
+        
+Word: _ _ _ _ _ _ _ 
+Guessed letters: []
+Remaining attempts: 6
+
+Enter a letter: s
+Wrong guess!
+
+         +---+
+         |   |
+         O   |
+             |
+             |
+        =========
+        
+Word: _ _ _ _ _ _ _ 
+Guessed letters: ['S']
+Remaining attempts: 5
+
 
 # Program execution
 if __name__ == "__main__":
